@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!DOCTYPE HTML>
+ <html>
+ <head>
+ <meta charset="UTF-8">
+	<title>Mobile Chrono</title> 
+	
+	<link rel="stylesheet" type="text/css" href="ball.css">
+ </head>
+ <body id="CajaTotal">
+	<div id="time">00:00 </div><br>
+	<div id="canvasPart">
+            <!--<a id="fullscreenButton" class="fadable" href="javascript:onFullscreen(event);" style="display: none;"> … </a>-->
+            <canvas id="surface"> … </canvas>
+        </div>
+	<div id ="botonBox">
+		<button id="botonStart" onClick="botonStart();"> <strong>Start</strong> </button>
+		<button id="botonPause" onClick="botonPause();"> <strong>Pause</strong> </button>
+		<button id="botonStop" onClick="botonStop();"> <strong>Stop</strong> </button>
+                <button id="botonHoles" onClick="botonHoles();"> <strong>Holes left: 1</strong> </button>
+	</div>
+ </body>
+ 
+	<script src="movingBall.js"></script>
+ </html>
